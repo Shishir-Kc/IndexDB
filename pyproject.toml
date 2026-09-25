@@ -8,6 +8,7 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
+    "aiofiles>=25.1.0",
     "fastapi[standard]>=0.141.1",
     "structlog>=26.1.0",
 ]
@@ -15,6 +16,7 @@ dependencies = [
 [project.scripts]
 indexdb = "src:main"
 check = "src.dev_scripts.check:main"
+setting = "src.config.settings:main"
 
 [build-system]
 requires = ["uv_build>=0.12.5,<0.13.0"]
