@@ -1,7 +1,9 @@
 """
 This file is responsible for creating setting.json.
 
-it's settings will be used to derive the behaviour of the DB it self 
+it's settings will be used to derive the behaviour of the DB it self.
+
+NOTE: There is a posibillity for 2 setting implementation . 
 """
 
 import asyncio
