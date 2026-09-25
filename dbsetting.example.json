@@ -1,4 +1,5 @@
 {
   "installation_path": ".config/IndexDB",
-  "debug": true
+  "debug": true,
+  "version": "0.1.0"
 }
