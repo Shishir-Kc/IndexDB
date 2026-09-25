@@ -19,7 +19,9 @@ class IndexDBSetting:
         async with aiofiles.open("dbsetting.json", "w") as file:
             await file.write(
                 Setting(
-                    installation_path=self.installation_path, debug=self.debug
+                    installation_path=self.installation_path,
+                    debug=self.debug,
+                    version="0.1.0"
                 ).model_dump_json(indent=2)
             )
 
