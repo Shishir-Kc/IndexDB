@@ -7,6 +7,7 @@ class Setting(BaseModel):
      - dbsettings.json
     """
 
-    installation_path: str
+    root_path: str
     debug: bool
     version: str
+    data_bases_path: str
